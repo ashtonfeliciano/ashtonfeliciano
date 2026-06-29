@@ -18,7 +18,7 @@ Technical communications specialist and AI workflow engineer. I build documentat
 
 ## Stack
 
-`n8n` &nbsp; `LiteLLM` &nbsp; `Claude API` &nbsp; `GPT` &nbsp; `Gemini` &nbsp; `Obsidian` &nbsp; `MCP Protocol` &nbsp; `Docker` &nbsp; `Python` &nbsp; `PowerShell` &nbsp; `Markdown` &nbsp; `Git`
+`n8n` &nbsp; `LiteLLM` &nbsp; `Claude API` &nbsp; `GPT` &nbsp; `Gemini` &nbsp; `Obsidian` &nbsp; `MCP Protocol` &nbsp; `VS Code` &nbsp; `Docker` &nbsp; `Python` &nbsp; `PowerShell` &nbsp; `Markdown` &nbsp; `Git`
 
 ---
 
