@@ -12,7 +12,7 @@ Technical communications specialist and AI workflow engineer. I build documentat
 
 **Context knowledge base** — 1,400+ page Obsidian vault with semantic retrieval, organized across documentation systems, project logs, SOPs, runbooks, and lessons learned.
 
-**Technical documentation systems** — 15+ years producing standards-based technical content for complex engineering programs. Applied the same discipline to AI context engineering and knowledge system design.
+**Technical documentation systems** — Four years of standards-based technical documentation for U.S. Coast Guard systems. Applied the same discipline to AI context engineering and knowledge system design.
 
 ---
 
