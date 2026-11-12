@@ -1,38 +1,34 @@
-# Ashton Valente-Feliciano
+![Ashton Valente-Feliciano. Builds AI workflows and documents them.](banner.svg)
 
-Technical communications specialist and AI workflow engineer. I build documentation systems, self-hosted AI infrastructure, and automation pipelines — learning by doing and documenting everything as I go.
+I build practical AI workflows using n8n, Claude Code skills and MCP connectors, and I run them on my own server. I started working with these tools in 2025, bringing together automation, hands-on technical work and a knack for making complex systems easier to use.
 
----
+Before that, I spent four years creating and checking technical documentation for U.S. Coast Guard systems. The work included maintenance procedures, reliability analyses and requirements lists - all focused on helping people maintain equipment accurately and consistently.
 
-## What I work on
+My background also includes four years in air cargo logistics, where I reached journeyman level and supervised teams of up to six. Earlier in my career, I trained in electrical work and repaired shipboard power systems, including 400 Hz motor-generators. I completed an 8,000-hour registered electrical maintenance apprenticeship and earned a degree in technical studies focused on electronic instrumentation.
 
-**AI automation pipelines** — Multi-stage n8n workflows with LLM routing (Claude, GPT, Gemini via LiteLLM), multi-source job scraping, financial signal monitoring, and daily briefing delivery via Telegram.
+I’m a Navy and Air Force veteran.
 
-**Self-hosted AI workspace** — Customized Odysseus deployment with MCP integrations for Google Drive and Google Calendar, plus a personal knowledge base layer that auto-loads context before every AI session.
+## Work you can check
 
-**Context knowledge base** — 1,400+ page Obsidian vault with semantic retrieval, organized across documentation systems, project logs, SOPs, runbooks, and lessons learned.
+| Project | What it shows | Evidence |
+|---|---|---|
+| [ai-automation-lab](https://github.com/avf-works/ai-automation-lab) | n8n job-search pipeline: 10+ job sources, deduplication, LLM ranking, contact lookup, Telegram delivery, and a designed 35-test evaluation suite. Morning brief that reads Gmail through OAuth. Stack: LiteLLM and Ollama model routing, Docker on a Linux VPS, Twingate zero-trust access | Build log and stack table in the README |
+| [odysseus (fork)](https://github.com/ashtonfeliciano/odysseus) | Self-hosted AI workspace: upstream catch-up merges, Google Drive MCP for admins, a guardrail module that adds knowledge-base rules to the assistant's system prompt, and a Docker Compose file for a VPS | Merged PRs 1 to 4, `src/ckb_guardrails.py`, `docker-compose.vps.yml` |
+| [advanced-flex-sorting-obsidian-headers](https://github.com/ashtonfeliciano/advanced-flex-sorting-obsidian-headers) | CSS snippet that groups and orders Obsidian folders with attribute selectors and flexbox | Step-by-step screenshots |
+| [MyOpenSwarm (fork)](https://github.com/ashtonfeliciano/MyOpenSwarm) | Multi-agent OpenSwarm setup for a VPS | Fork notes |
 
-**Technical documentation systems** — Four years of standards-based technical documentation for U.S. Coast Guard systems. Applied the same discipline to AI context engineering and knowledge system design.
+## Skill areas
 
----
-
-## Stack
-
-`n8n` &nbsp; `LiteLLM` &nbsp; `Claude API` &nbsp; `GPT` &nbsp; `Gemini` &nbsp; `Obsidian` &nbsp; `MCP Protocol` &nbsp; `VS Code` &nbsp; `Docker` &nbsp; `Python` &nbsp; `PowerShell` &nbsp; `Markdown` &nbsp; `Git`
-
----
-
-## Repos
-
-| Repo | What it is |
+| Skill | Where it shows |
 |---|---|
-| [ai-automation-lab](https://github.com/avf-works/ai-automation-lab) | Job scraper, morning brief, market signals — full build log |
-| [MyOpenSwarm](https://github.com/ashtonfeliciano/MyOpenSwarm) | Customized multi-agent swarm deployment |
-| [odysseus](https://github.com/ashtonfeliciano/odysseus) | Self-hosted AI workspace with personal knowledge layer |
-| [advanced-flex-sorting-obsidian-headers](https://github.com/ashtonfeliciano/advanced-flex-sorting-obsidian-headers) | CSS snippet for custom Obsidian folder layout |
+| n8n pipelines, scheduled jobs, Gmail and Telegram APIs | ai-automation-lab |
+| LLM ranking and model routing (LiteLLM, Ollama) | ai-automation-lab |
+| Evaluation: a designed 35-test suite | ai-automation-lab |
+| MCP connectors | odysseus, Google Drive MCP (PR 4) |
+| System-prompt guardrails | odysseus, `src/ckb_guardrails.py` |
+| Docker, Docker Compose, Linux VPS, zero-trust remote access | odysseus `docker-compose.vps.yml`, ai-automation-lab stack table |
+| CSS attribute selectors and flexbox | advanced-flex-sorting-obsidian-headers |
 
----
+## Contact
 
-## Connect
-
-LinkedIn: [linkedin.com/in/ashtonavf](https://linkedin.com/in/ashtonavf)
+[LinkedIn: linkedin.com/in/ashtonavf](https://www.linkedin.com/in/ashtonavf)
