@@ -13,9 +13,11 @@ I’m a Navy and Air Force veteran.
 | Project | What it shows | Evidence |
 |---|---|---|
 | [ai-automation-lab](https://github.com/avf-works/ai-automation-lab) | n8n job-search pipeline: 10+ job sources, deduplication, LLM ranking, contact lookup, Telegram delivery, and a designed 35-test evaluation suite. Morning brief that reads Gmail through OAuth. Stack: LiteLLM and Ollama model routing, Docker on a Linux VPS, Twingate zero-trust access | Build log and stack table in the README |
+| [Laya-System-1-Convai](https://github.com/ashtonfeliciano/Laya-System-1-Convai) | A small local yes/no model run as a free first pass before paid models: answer-key tests, odds cutoffs, side-by-side upgrade tests, and fine-tuning runs on Kaggle | Test tables in the README, `ask_laya.py` with a selftest |
+| [claude-skills-pack](https://github.com/ashtonfeliciano/claude-skills-pack) | Five Claude Code skills from my own working notes: n8n workflow building, n8n test suites, pipeline diagnostics, secrets hygiene, and root-cause analysis | One `SKILL.md` per skill |
 | [odysseus (fork)](https://github.com/ashtonfeliciano/odysseus) | Self-hosted AI workspace: upstream catch-up merges, Google Drive MCP for admins, a guardrail module that adds knowledge-base rules to the assistant's system prompt, and a Docker Compose file for a VPS | Merged PRs 1 to 4, `src/ckb_guardrails.py`, `docker-compose.vps.yml` |
+| [design-tweakbar](https://github.com/ashtonfeliciano/design-tweakbar) | Local-first design reference app: Tauri and React desktop app, a Chrome and Edge capture extension, and four TypeScript packages | 284 of 284 unit tests, checks listed in the README |
 | [advanced-flex-sorting-obsidian-headers](https://github.com/ashtonfeliciano/advanced-flex-sorting-obsidian-headers) | CSS snippet that groups and orders Obsidian folders with attribute selectors and flexbox | Step-by-step screenshots |
-| [MyOpenSwarm (fork)](https://github.com/ashtonfeliciano/MyOpenSwarm) | Multi-agent OpenSwarm setup for a VPS | Fork notes |
 
 ## Skill areas
 
@@ -23,10 +25,14 @@ I’m a Navy and Air Force veteran.
 |---|---|
 | n8n pipelines, scheduled jobs, Gmail and Telegram APIs | ai-automation-lab |
 | LLM ranking and model routing (LiteLLM, Ollama) | ai-automation-lab |
-| Evaluation: a designed 35-test suite | ai-automation-lab |
-| MCP connectors | odysseus, Google Drive MCP (PR 4) |
+| Evaluation: a designed 35-test suite, and answer-key tests with odds cutoffs | ai-automation-lab, Laya-System-1-Convai |
+| Claude Code skills | claude-skills-pack |
+| MCP connector | odysseus, Google Drive MCP (PR 4) |
+| Small-model fine-tuning and side-by-side upgrade tests | Laya-System-1-Convai |
 | System-prompt guardrails | odysseus, `src/ckb_guardrails.py` |
+| Secrets handling and root-cause write-ups | claude-skills-pack: `secrets-hygiene`, `root-cause-analyst` |
 | Docker, Docker Compose, Linux VPS, zero-trust remote access | odysseus `docker-compose.vps.yml`, ai-automation-lab stack table |
+| Desktop app and browser extension: Tauri, React, TypeScript | design-tweakbar |
 | CSS attribute selectors and flexbox | advanced-flex-sorting-obsidian-headers |
 
 ## Contact
